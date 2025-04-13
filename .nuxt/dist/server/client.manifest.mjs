@@ -1,0 +1,1 @@
+export { default } from "file:///C:/Users/Rendy/Documents/Folder%20Rendi/skill%20test/nuxatech_test/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
