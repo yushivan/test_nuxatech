@@ -1,7 +1,7 @@
 <script setup>
 import { useAuth } from "~/composables/useAuth";
 import Cookies from "js-cookie";
-import { getListUser, userDelete, userUpdate } from "~/server/auth";
+import { getDetailUser, userDelete, userUpdate } from "~/server/auth";
 
 const { checkAuth } = useAuth();
 
@@ -17,7 +17,7 @@ const email = ref("");
 
 const { data: users, pending: usersPending } = await useAsyncData(
   "users",
-  getListUser
+  getDetailUser
 );
 
 watchEffect(() => {

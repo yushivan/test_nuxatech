@@ -14,7 +14,6 @@ export const useAuth = () => {
   
     const checkAuth = () => {
       const token = Cookies.get('access_token');
-      const email = Cookies.get('email');
       isLoggedIn.value = !!token;
     };
   

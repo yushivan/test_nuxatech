@@ -55,3 +55,12 @@ export async function getListUser(page = 1) {
   }
 }
 
+export async function getDetailUser() {
+  try {
+    const response = await api.get('/users');
+    return response.data.data;
+  } catch (error) {
+    console.error('Error fetching info:', error);
+    throw error;
+  }
+}
