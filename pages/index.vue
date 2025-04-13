@@ -38,7 +38,7 @@ const prevPage = () => {
 
 <template>
   <div class="w-screen h-[40dvh] relative">
-    <img src="/images/background.webp" class="w-full h-full object-cover" />
+    <img src="/images/background.webp" alt="header-image" class="w-full h-full object-cover" />
   </div>
   <div class="p-10">
     <p class="text-center text-3xl md:text-4xl lg:text-5xl uppercase mb-8 font-medium">Our Team</p>

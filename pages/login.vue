@@ -33,7 +33,7 @@ const handleLogin = async () => {
 
 <template>
   <div class="w-screen h-[100dvh] relative">
-    <img src="/images/background.webp" class="w-full h-full object-cover" />
+    <img src="/images/background.webp" alt="background-image" class="w-full h-full object-cover" />
 
     <div
       class="absolute top-[50%] start-[50%] translate-x-[-50%] translate-y-[-50%] w-full p-5"
